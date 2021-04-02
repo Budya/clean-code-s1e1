@@ -15,29 +15,29 @@
   text-transform: uppercase;
 }
 
-.header-image {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.header-image img {
+.header__image {
   width: 100%;
 }
 
-.header-image .more-info {
+.header__info-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .header-image {
+  .header {
     text-align: center;
   }
 
 }
-.wrapper {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -49,7 +49,7 @@
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.add-section-header__task-row-wrapper {
   display: flex;
 }
 
@@ -82,7 +82,7 @@ button {
 }
 
 /* Heading */
-.new-task-label {
+.add-section-header__new-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -110,7 +110,7 @@ button {
 }
 
 /* New Task */
-.new-task-label {
+.add-section-header__new-task-label {
   display: block;
   margin: 0 0 20px;
 }
